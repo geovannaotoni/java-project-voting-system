@@ -7,6 +7,12 @@ public class PessoaCandidata extends Pessoa {
   protected int numero;
   protected int votos;
 
+  /**
+   * Instantiates a new Pessoa candidata.
+   *
+   * @param nome   o nome
+   * @param numero o número identificador para voto
+   */
   public PessoaCandidata(String nome, int numero) {
     setNome(nome);
     this.numero = numero;
